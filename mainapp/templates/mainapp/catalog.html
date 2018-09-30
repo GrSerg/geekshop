@@ -1,0 +1,112 @@
+{% extends 'mainapp/base.html' %}
+{% load staticfiles %}
+
+{% block content %}
+
+<h1>Каталог</h1>
+
+<div class="catalog-productWrap">
+    <div class="catalog-productUnit">
+        <div class="catalog-productUnitName">
+            product name
+            <div class="catalog-productUnitImg">
+                <img class="catalog-img" src="{% static 'img/boardgame.jpg' %}" alt="Настольная игра"
+                     title="Настольная игра">
+            </div>
+            <div class="catalog-productUnitShortDesc">
+                Краткое описание товара 1
+            </div>
+            <div class="catalog-productUnitPrice">
+                $100
+            </div>
+            <a href="{% url 'product_1' %}" class="catalog-productUnitMore">Подробнее</a>
+        </div>
+    </div>
+
+    <div class="catalog-productUnit">
+        <div class="catalog-productUnitName">
+            product name
+            <div class="catalog-productUnitImg">
+                <img class="catalog-img" src="{% static 'img/boardgame.jpg' %}" alt="Настольная игра"
+                     title="Настольная игра">
+            </div>
+            <div class="catalog-productUnitShortDesc">
+                Краткое описание товара 1
+            </div>
+            <div class="catalog-productUnitPrice">
+                $100
+            </div>
+            <a href="{% url 'product_1' %}" class="catalog-productUnitMore">Подробнее</a>
+        </div>
+    </div>
+
+    <div class="catalog-productUnit">
+        <div class="catalog-productUnitName">
+            product name
+            <div class="catalog-productUnitImg">
+                <img class="catalog-img" src="{% static 'img/boardgame.jpg' %}" alt="Настольная игра"
+                     title="Настольная игра">
+            </div>
+            <div class="catalog-productUnitShortDesc">
+                Краткое описание товара 1
+            </div>
+            <div class="catalog-productUnitPrice">
+                $100
+            </div>
+            <a href="{% url 'product_1' %}" class="catalog-productUnitMore">Подробнее</a>
+        </div>
+    </div>
+
+    <div class="catalog-productUnit">
+        <div class="catalog-productUnitName">
+            product name
+            <div class="catalog-productUnitImg">
+                <img class="catalog-img" src="{% static 'img/boardgame.jpg' %}" alt="Настольная игра"
+                     title="Настольная игра">
+            </div>
+            <div class="catalog-productUnitShortDesc">
+                Краткое описание товара 1
+            </div>
+            <div class="catalog-productUnitPrice">
+                $100
+            </div>
+            <a href="{% url 'product_1' %}" class="catalog-productUnitMore">Подробнее</a>
+        </div>
+    </div>
+
+    <div class="catalog-productUnit">
+        <div class="catalog-productUnitName">
+            product name
+            <div class="catalog-productUnitImg">
+                <img class="catalog-img" src="{% static 'img/boardgame.jpg' %}" alt="Настольная игра"
+                     title="Настольная игра">
+            </div>
+            <div class="catalog-productUnitShortDesc">
+                Краткое описание товара 1
+            </div>
+            <div class="catalog-productUnitPrice">
+                $100
+            </div>
+            <a href="{% url 'product_1' %}" class="catalog-productUnitMore">Подробнее</a>
+        </div>
+    </div>
+
+    <div class="catalog-productUnit">
+        <div class="catalog-productUnitName">
+            product name
+            <div class="catalog-productUnitImg">
+                <img class="catalog-img" src="{% static 'img/boardgame.jpg' %}" alt="Настольная игра"
+                     title="Настольная игра">
+            </div>
+            <div class="catalog-productUnitShortDesc">
+                Краткое описание товара 1
+            </div>
+            <div class="catalog-productUnitPrice">
+                $100
+            </div>
+            <a href="{% url 'product_1' %}" class="catalog-productUnitMore">Подробнее</a>
+        </div>
+    </div>
+</div>
+
+{% endblock %}

@@ -1,0 +1,34 @@
+{% extends 'mainapp/base.html' %}
+{% load staticfiles %}
+
+{% block content %}
+<h1>Контакты</h1>
+
+<fieldset>
+    <legend>Напишите нам</legend>
+    <form class="contacts-form" action="contacts.html" method="post">
+        <input type="text" name="username" placeholder="Введите ваше имя">
+        <br>
+        <input type="email" name="email" placeholder="Введите ваш email">
+        <br>
+        <input type="text" name="subject" placeholder="Тема сообщения">
+        <br>
+        <label for="letterBody">Ваше письмо:</label>
+        <br>
+        <textarea name="letter" id="letterBody" cols="30" rows="10"></textarea>
+        <br>
+        <input type="submit" value="Отправить письмо">
+    </form>
+</fieldset>
+
+<h2>Адрес</h2>
+<p>
+    <strong>Телефон: </strong> +7 956 345 56 67<br>
+    <strong>Адрес: </strong> г. Москва ул. Ленивка д.1с1<br>
+    <strong>Email: </strong> contact@hairyorc.ru
+</p>
+
+<script type="text/javascript" charset="utf-8" async
+        src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ac073ba794c74c1d50ec762dd8fa18c0c280c2fa2bf3f99b69ecc173c9fbd44f9&amp;width=100%25&amp;height=374&amp;lang=ru_RU&amp;scroll=true"></script>
+
+{% endblock %}

@@ -1,0 +1,181 @@
+body {
+    background: #f8f8f8;
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.header {
+    height: 130px;
+    position: relative;
+    background: url("/static/img/header.jpg") no-repeat 100%;
+}
+.main-menu {
+    float: right;
+    margin-right: 10px;
+}
+
+.main-menu li {
+    display: inline-block;
+    padding: 0 5px;
+}
+.header img {
+    width: 90px;
+    margin: 5px 0 0 20px;
+}
+
+.store-name {
+    position: absolute;
+    top: 50px;
+    left: 125px;
+    font-size: 20px;
+}
+
+.main-menu li a {
+    color: #b21925;
+    font-size: 25px;
+    font-style: oblique;
+    text-decoration: none;
+    font-family: fantasy;
+}
+
+.main-menu li a:hover {
+    color: firebrick;
+    text-decoration: underline;
+}
+
+.product-header {
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    background: #eaeaea;
+    margin-top: 0;
+}
+
+.product-imgAndDesc {
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+.product-imgWrap{
+    width: 30%;
+    float: left;
+}
+
+.product-shortDescWrap {
+    width: 68%;
+    float: right;
+
+}
+.product-shortDescription {
+    color: #707070;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+}
+
+.product-buyButton {
+    display: block;
+    float: right;
+    padding: 15px 25px;
+    text-decoration: none;
+    border-radius: 4px;
+    color: firebrick;
+    font-weight: bold;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#bfd255+0,8eb92a+50,72aa00+51,9ecb2d+100;Green+Gloss */
+    background: rgb(191,210,85); /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(191,210,85,1) 0%, rgba(142,185,42,1) 50%, rgba(114,170,0,1) 51%, rgba(158,203,45,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(191,210,85,1) 0%,rgba(142,185,42,1) 50%,rgba(114,170,0,1) 51%,rgba(158,203,45,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(191,210,85,1) 0%,rgba(142,185,42,1) 50%,rgba(114,170,0,1) 51%,rgba(158,203,45,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bfd255', endColorstr='#9ecb2d',GradientType=0 ); /* IE6-9 */
+}
+
+.product-shortDescription:first-letter {
+    color: #b21925;
+    font-family: Consolas sans-serif;
+    font-size: 20px;
+}
+
+.product-rules {
+    color: #484343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.product-composition {
+    color: black;
+    font-style: italic;
+    font-size: 18px;
+    border-collapse: collapse;
+}
+
+.product-composition td {
+    border: 1px solid black;
+    background: url("/static/img/Icon.png") no-repeat left center;
+    background-size: 2%;
+    padding-left: 25px;
+}
+
+.contacts-form input[type = "text"],
+.contacts-form input[type = "email"] {
+    width: 300px;
+    height: 30px;
+    color: black;
+    font-size: 25px;
+}
+
+.contacts-form input[type = "text"] {
+    text-transform: capitalize;
+}
+
+.contacts-form input[type = "email"]:focus {
+    background: blue;
+    color: white;
+}
+
+.contacts-form textarea {
+    width: 300px;
+}
+
+.product-img {
+    width: 100%;
+    border: 3px solid #b21925;
+    box-sizing: border-box;
+}
+
+.product-img:hover {
+    border-color: transparent;
+}
+.catalog-img {
+    width: 100%;
+}
+
+.catalog-productWrap {
+    overflow: hidden;
+}
+
+.catalog-productUnit {
+    width: 28%;
+    float: left;
+    margin-right: 5%;
+    margin-bottom: 35px;
+    outline: 1px solid #707070;
+
+}
+
+.catalog-productUnit:nth-child(3n) {
+    margin-right: 0;
+}
+
+.footer {
+    background: #707070;
+    height: 100px;
+    text-align: right;
+    padding: 10px 10px 0 0;
+    font-weight: bold;
+
+}
